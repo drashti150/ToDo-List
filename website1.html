@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html>
+<title>Online HTML Editor</title>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.css">
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title></title>
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <!--Navbar Start-->
+    <div class="navbar">
+        <div class="logo-sec">
+            <h1 style="margin: 4px 20px;">Demo</h1>
+        </div>
+        <div class=" logo-right-sec">
+            <ul>
+                <li><a style="word-spacing: 1px;" href="#">About Us</a></li>
+                <li> <a style="word-spacing: 1px;" href="#">Contact Us</a></li>
+                <li> <a href="#">Pricing</a></li>
+            </ul>
+        </div>
+    </div>
+    <!--Navbar End-->
+
+    <!--Searchbar Start-->
+    <div class="searchbar">
+        <div style="text-align: center;">
+            <input type="search" id="myInput" value="" placeholder="Enter Name Here">
+
+            <button id="demo1" onclick="validInput()"
+                style="margin:20px; width: 200px;color: white; font-size: large;background-color: rgb(65, 182, 255);">Add</button>
+            <p id="demo"></p>
+
+        </div>
+    </div>
+
+    <!--Searchbar End-->
+
+    <!--Todo Section Start-->
+
+    <div class="todo-section" id="todoSection"
+        style="display: flex;flex-wrap: wrap;flex-direction: row;justify-content: center;">
+
+    </div>
+
+    <!--Todo Section End-->
+
+    <!--Footer Start-->
+    <div class="footer">
+        <div class="left-sec">
+            <h1>Demo</h1>
+            <i class="fa fa-envelope" style="display: block;margin-bottom: 10px;"><span
+                    style="margin: 10px;">demo@gmail.com</i></span>
+            <i class="fa fa-volume-control-phone"><span style="margin: 10px;">+91 1234567890</i></span>
+        </div>
+        <div class="right-sec">
+            <h2>Quick Links</h2>
+            <ul>
+                <li style="list-style-type:none; margin-top: 10px;"><a href="#"> About Us</a></li>
+                <li style="list-style-type:none; margin-top: 10px;"><a href="#"> Contact Us</a></li>
+                <li style="list-style-type:none; margin-top: 10px;"><a href="#"> Pricing</a></li>
+            </ul>
+        </div>
+    </div>
+    <!--Footer End-->
+    <!--Copyright sec start -->
+    <div class="copy">
+        <p class="fa fa-copyright">2023 Demo. All Rights Reserved</p>
+    </div>
+    <!--Copyright sec end -->
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="web1.js"></script>
+</body>
+
+</html>

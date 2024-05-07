@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html>
+<title>Online HTML Editor</title>
+<head>
+</head>
+<body>
+<!--Navbar Start-->
+    <div class="navbar">
+        <div class="logo-sec">
+            <h2>Demo</h2>
+        </div>
+        <div class="menu-sec">
+            <ul>
+                <li><a href="#">About Us</a></li>
+                <li><a href="#">Contat Us</a></li>
+                <li><a href="#">Pricing</a></li>
+            </ul>
+        </div>
+    </div>
+<!--Navbar End-->
+
+<!--Searchbar Start-->
+    <div class="searchbar">
+        <input type="text" placeholder="Enter name here">
+        <button>Add</button>
+    </div>
+<!--Searchbar End-->
+
+<!--Todo Section Start-->
+    <div class="todo-section">
+        <div class="todo-item">
+            <div class="todo-item-header">
+                <button>Edit</button>
+                <button>Remove</button>
+            </div>
+            <div class="todo-item-footer">
+                <label>Hello</label>
+            </div>
+        </div>
+    </div>
+<!--Todo Section End-->
+
+<!--Footer Start-->
+    <div class="footer">
+        <div class="left-sec">
+            <h2>Demo</h2>
+            <a href="">demo@gmail.com</a>
+            <a href="">+91 1234567890</a>
+        </div>
+        <div class="right-sec">
+            <p>Quick Links</p>
+            <ul>
+                <li><a href="#">About Us</a></li>
+                <li><a href="#">Contat Us</a></li>
+                <li><a href="#">Pricing</a></li>
+            </ul>
+        </div>
+    </div>
+<!--Footer End-->
+
+<!--Copyright sec start -->
+<p>2023 Demo. All Rights Reserverd</p>
+<!--Copyright sec end -->
+</body>
+</html>

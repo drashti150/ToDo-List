@@ -1,0 +1,147 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+body{
+    border: 3px solid black;
+    margin: 20px;
+    border-radius: 10px;
+}
+.navbar {
+    background-color: rgb(89, 43, 243);
+    display: flex;
+    justify-content: space-between;
+    color: white;
+    font-size: large;
+    border-radius: 7px;
+}
+#myInput{
+    width: 450px;
+    height: 40px;
+    background-color: lightgray;
+    border-radius: 5px;
+    border:none;}
+
+.box {
+
+    height: 150px;
+    width: 220px;
+    margin: 10px 10px 10px 10px;
+    padding: 10px 20px 10px 20px;
+    outline: 2px solid black;
+    border-radius: 20px;
+}
+
+.pencil {
+
+    text-align: center;
+    padding: 10px 5px;
+    height: 20px;
+    width: 30px;
+    border-radius: 100px;
+    color: white;
+    display: inline;
+    background-color: black;
+
+}
+
+.time {
+    text-align: center;
+    padding: 10px 5px;
+    outline: 2px solid black;
+    height: 20px;
+    width: 30px;
+    border-radius: 100px;
+    display: inline;
+
+}
+
+.logo-right-sec {
+    padding: 15px 20px;
+    word-spacing: 40px;
+    font-family: Arial;
+
+}
+
+.logo-right-sec ul li {
+    list-style-type: none;
+    display: inline-block;
+}
+
+button {
+    border: none;
+    background-color: rgb(89, 43, 243);
+    border-radius: 80px;
+    width: 200px;
+    color: white;
+    height: 50px;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}
+
+h2 {
+    font-size: x-large;
+    text-decoration: underline;
+    display: inline-block;
+}
+
+.copy {
+    background-color: rgb(65, 182, 255);
+    display: flex;
+    margin-top: -5px;
+    font-family: Arial;
+    height: 25px;
+    justify-content: center;
+    font-size: large;
+}
+
+.footer {
+    background-color: rgb(89, 43, 243);
+    display: flex;
+    text-align: right;
+    margin-top: 10%;
+    height: 300px;
+}
+
+.todo-item-header {
+    height: 30px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.todo-item-footer {
+
+    height: calc(100%-40px);
+    position: relative;
+    padding: 60px 10px;
+    margin-top: 30px;
+    bottom: 25px;
+    font-size: x-large;
+}
+
+.left-sec {
+    padding: 30px 30px;
+    text-align: left;
+    color: white;
+    font-family: Arial, sans-serif;
+    font-size: large;
+    width: 70%;
+
+}
+
+.right-sec {
+    color: white;
+    font-family: Arial, sans-serif;
+    text-align: left;
+    font-size: large;
+    width: 30%;
+    padding-top: 30px;
+}
+
+input::placeholder {
+    color: black !important;
+    padding-left: 10px;
+}
